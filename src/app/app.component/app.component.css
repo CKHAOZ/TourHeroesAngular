@@ -4,15 +4,15 @@
     cursor: pointer;
 }
 
-.Cabecera{
-    background-color:#1976d2;
-}
-
 .appTitle{
     color: white;
     float: right;
     margin: 15px 15px 0 0;
     font-family: monospace;
+}
+
+.Cabecera{
+    background-color:#1976d2;
 }
 
 .ContenidoHeroes{
