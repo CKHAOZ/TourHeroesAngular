@@ -1,0 +1,20 @@
+.logoAngular {
+    width: 145px;
+    padding: 5px 0 0 15px;
+    cursor: pointer;
+}
+
+.Cabecera{
+    background-color:#1976d2;
+}
+
+.appTitle{
+    color: white;
+    float: right;
+    margin: 15px 15px 0 0;
+    font-family: monospace;
+}
+
+.ContenidoHeroes{
+    margin-top: 25px;
+}
