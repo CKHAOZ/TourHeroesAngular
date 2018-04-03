@@ -19,18 +19,16 @@
 
 .Cabecera{
     background-color:#1976d2;
-    height: 50px;
 }
 
 .ContenidoHeroes{
     margin: 25px;
-    height: 455px;
 }
 
 .blanco{
     color: white;
 }
 
-#aHeroes, #aDashboard{
+#aHeroes, #aDashboard, #aMessages{
     margin-left: 15px;
 }
