@@ -25,6 +25,7 @@ export class HeroesComponent implements OnInit {
   }
   
   onSelect(hero: Hero): void{
+    this.heroService.msgService.add('HeroService: Add Hero');
     this.selectedHero = hero;
   }
 
