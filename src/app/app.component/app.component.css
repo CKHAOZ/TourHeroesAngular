@@ -11,10 +11,26 @@
     font-family: monospace;
 }
 
+.appHeroes{
+    color: white;
+    margin: 15px 15px 0 0;
+    font-family: monospace;
+}
+
 .Cabecera{
     background-color:#1976d2;
+    height: 50px;
 }
 
 .ContenidoHeroes{
-    margin-top: 25px;
+    margin: 25px;
+    height: 455px;
+}
+
+.blanco{
+    color: white;
+}
+
+#aHeroes, #aDashboard{
+    margin-left: 15px;
 }

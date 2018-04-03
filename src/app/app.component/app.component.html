@@ -1,10 +1,14 @@
 <div class="Cabecera">
   <img width="300" alt="Angular Logo" src=".\assets\image\LogoAngular.png" class="logoAngular">
+  <a id="aHeroes" routerLink="/heroes" class="blanco">Heroes</a>
+  <a id="aDashboard" routerLink="/dashboard" class="blanco" >Dashboard</a>
   <div class="appTitle">
     {{title}}
-  </div>  
+  </div>
 </div>
 <div class="ContenidoHeroes">
-    <app-heroes></app-heroes>
-    <app-messages></app-messages>
+    <router-outlet></router-outlet>
+</div>
+<div>
+  <app-messages></app-messages>
 </div>
